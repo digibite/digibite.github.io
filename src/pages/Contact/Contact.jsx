@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import styles from "./Contact.module.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -42,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" className={styles.contact}>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>

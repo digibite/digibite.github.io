@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className={styles.contact}>
+    <section id="contact" className={`${styles.contact} animateSec`}>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>

@@ -1,4 +1,9 @@
 .about {
-  width: 80vw;
+  width: 50vw;
   margin: 0 auto;
+}
+
+.aboutDesc {
+  text-align: justify;
+  color: var(--secondary);
 }

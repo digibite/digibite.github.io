@@ -1,17 +1,23 @@
 .contact {
-  width: 50vw;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 599px) {
+  .contact {
+    width: 90vw;
+    min-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contact {
+    width: 500px;
+    min-width: 300px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .contact {
-    width: 75vw;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .contact {
-    width: 90vw;
-    min-width: 300px;
+    width: 600px;
   }
 }

@@ -4,8 +4,8 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <section id="about" className={`${styles.about} animateSec`}>
-      <h1>About Me</h1>
-      <p className={styles.aboutDesc}>Hi, I&apos;m Irwing, 👋</p>
+      <h1>A Bit About Me 👋</h1>
+      <p className={styles.aboutDesc}>Hi, I&apos;m Irwing, </p>
       <p className={styles.aboutDesc}>
         a passionate software engineer with five years of experience in building
         robust and scalable web applications. My expertise lies in utilizing

@@ -1,21 +1,23 @@
 .projects {
-  width: 80vw;
   margin: 0 auto;
 }
 
-.project {
-  height: 500px;
+@media only screen and (max-width: 599px) {
+  .projects {
+    width: 90vw;
+    min-width: 300px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .projects {
+    width: 500px;
+    min-width: 300px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .projects {
-    width: 75vw;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .projects {
-    width: 90vw;
-    min-width: 300px;
+    width: 600px;
   }
 }

@@ -4,7 +4,7 @@ import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={`animateSec ${styles.animateNav}`}>
       <ul className={styles.navLinks}>
         <li>
           <Link to="/" className={styles.textBase}>

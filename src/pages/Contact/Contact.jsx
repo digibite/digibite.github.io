@@ -46,11 +46,13 @@ const Contact = () => {
     <section id="contact" className={`${styles.contact} animateSec`}>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name</label>
+        {/* <label htmlFor="name">Name</label> */}
         <input
           type="text"
           id="name"
+          className={styles.contactInput}
           name="name"
+          placeholder="Name"
           required
           value={formData.name}
           onChange={handleChange}
@@ -60,7 +62,9 @@ const Contact = () => {
         <input
           type="email"
           id="email"
+          className={styles.contactInput}
           name="email"
+          placeholder="Email"
           required
           value={formData.email}
           onChange={handleChange}
@@ -69,13 +73,17 @@ const Contact = () => {
         <label htmlFor="message">Message</label>
         <textarea
           id="message"
+          className={styles.contactTextArea}
           name="message"
+          placeholder="Message"
           required
           value={formData.message}
           onChange={handleChange}
         ></textarea>
 
-        <button type="submit">Send</button>
+        <button className={styles.contactSubmit} type="submit">
+          Send
+        </button>
       </form>
     </section>
   );

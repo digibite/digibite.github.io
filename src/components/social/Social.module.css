@@ -74,7 +74,7 @@
 .wrapper .linkedin:hover,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
-  background: #3fa4e2;
+  background: rgb(10, 102, 194);
   color: #ffffff;
 }
 
@@ -83,4 +83,10 @@
 .wrapper .github:hover .tooltip::before {
   background: #333333;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    margin: 40px auto 0px auto;
+  }
 }

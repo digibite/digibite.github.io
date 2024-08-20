@@ -79,16 +79,6 @@ section {
   margin-top: 1rem;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background: #333;
-  color: #fff;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
 form {
   display: flex;
   flex-direction: column;

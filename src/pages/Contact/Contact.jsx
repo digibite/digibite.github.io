@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from "emailjs-com";
 import styles from "./Contact.module.css";
 
@@ -27,7 +27,7 @@ const Contact = () => {
         "D_07ZoFmsX0nYWym9"
       )
       .then(
-        (result) => {
+        () => {
           alert("Email sent successfully!");
           setFormData({
             name: "",
@@ -46,7 +46,6 @@ const Contact = () => {
     <section id="contact" className={`${styles.contact} animateSec`}>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
-        {/* <label htmlFor="name">Name</label> */}
         <input
           type="text"
           id="name"

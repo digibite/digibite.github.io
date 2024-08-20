@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Projects.module.css";
 
 const Projects = () => {
@@ -9,7 +8,6 @@ const Projects = () => {
         <h3>Project Title</h3>
         <p>Project description.</p>
       </div>
-      {/* Add more projects as needed */}
     </section>
   );
 };

@@ -12,7 +12,7 @@ h1 {
 }
 .aboutDesc {
   text-align: justify;
-  color: hsl(230deg 12% 80.39%); /* color: var(--secondary); */
+  color: hsl(230deg 12% 80.39%);
 }
 
 @media only screen and (max-width: 599px) {

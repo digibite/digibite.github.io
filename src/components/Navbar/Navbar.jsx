@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
@@ -12,13 +11,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/about" className={styles.textBase}>
-            About
-          </Link>
-        </li>
-        <li>
           <Link to="/projects" className={styles.textBase}>
-            Projects
+            Tech Stack
           </Link>
         </li>
         <li>

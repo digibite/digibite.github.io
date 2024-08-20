@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./components/footer/Footer";
 import "./index.css";
 
 function App() {
@@ -17,10 +18,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <footer>
-          <p>&copy; 2024 Irwing Gameros. All rights reserved.</p>
-        </footer>
       </div>
+      <Footer />
     </Router>
   );
 }

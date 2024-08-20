@@ -37,6 +37,7 @@
 .contactSubmit:hover {
   background: hsl(139.62deg 59.09% 34.51%);
   color: white;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 599px) {

@@ -13,7 +13,7 @@ const SocialBar = () => {
           >
             <i
               className={`fa fa-linkedin-square`}
-              style={{ color: "#fff" }}
+              style={{ color: "#fff", fontSize: "48px" }}
             ></i>
           </a>
         </li>
@@ -24,7 +24,10 @@ const SocialBar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fa fa-github" style={{ color: "#fff" }}></i>
+            <i
+              className="fa fa-github"
+              style={{ color: "#fff", fontSize: "54px" }}
+            ></i>
           </a>
         </li>
       </ul>

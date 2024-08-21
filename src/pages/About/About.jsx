@@ -8,11 +8,11 @@ const About = () => {
         <h1>Hi, I&apos;m Irwing, 👋</h1>
 
         <p className={styles.aboutDesc}>
-          a passionate software engineer with five years of experience in
-          building robust and scalable web applications. My expertise lies in
-          utilizing cutting-edge technologies such to create seamless and
-          efficient solutions. I thrive on challenges and am constantly seeking
-          opportunities to learn and grow in the ever-evolving tech landscape.
+          I am a passionate software developer with over five years of
+          experience in building robust and scalable web applications. My
+          expertise lies in utilizing cutting-edge technologies to create
+          seamless and efficient solutions. I thrive on challenges and am always
+          eager to learn and grow in the ever-evolving tech landscape.
           Let&apos;s build something amazing together!
         </p>
       </section>

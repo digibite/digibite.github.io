@@ -23,7 +23,7 @@
   margin: 10px;
   width: 50px;
   height: 50px;
-  font-size: 30px;
+  /* font-size: 70px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,5 +88,11 @@
 @media only screen and (max-width: 600px) {
   .wrapper {
     margin: 40px auto 0px auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    margin: 60px auto 0px auto;
   }
 }

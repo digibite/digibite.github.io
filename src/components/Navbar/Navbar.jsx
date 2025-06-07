@@ -10,11 +10,6 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        {/* <li>
-          <Link to="/projects" className={styles.textBase}>
-            Tech Stack
-          </Link>
-        </li> */}
         <li>
           <Link to="/contact" className={styles.textBase}>
             Contact

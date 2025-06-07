@@ -42,7 +42,7 @@ nav a {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0 auto 10vh auto;
 }
 
 main {
@@ -77,16 +77,6 @@ section {
   border: 1px solid #ddd;
   padding: 1rem;
   margin-top: 1rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background: #333;
-  color: #fff;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
 
 form {

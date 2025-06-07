@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
@@ -18,8 +19,11 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <Footer />
+        {/* <footer>
+          <p>&copy; 2024 Irwing Gameros. All rights reserved.</p>
+        </footer> */}
       </div>
-      <Footer />
     </Router>
   );
 }
